@@ -1,4 +1,5 @@
 
+whole=int(input("Choose a integer less than 7:"))
 
 if whole > 7:
 	print(whole,"is larger than 7. You chose badly. I will fix that for you.")
