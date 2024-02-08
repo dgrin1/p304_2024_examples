@@ -1,4 +1,5 @@
 from numpy import loadtxt,array,dot
+#hello there
 s=0
 t=0.1
 k=0
