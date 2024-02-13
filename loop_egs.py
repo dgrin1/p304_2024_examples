@@ -22,7 +22,7 @@ print(q)
 
 for r in np.arange(0,3,.1):
 	print(r)
-
+	print(q[r])
 u=np.linspace(0,10,11)
 print(u)
 
