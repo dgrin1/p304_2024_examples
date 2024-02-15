@@ -10,7 +10,6 @@ plt.ion()
 # plt.rc('text',usetex=True)
 # plt.rc('font', **{'family':'sans-serif','sans-serif':['Helvetica']})
 # plt.rc('font', **{'family':'serif','serif':['Times New Roman']})
-# 
 
 x=np.linspace(0,2*np.pi,100)
 y=np.sin(x)
