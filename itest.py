@@ -29,3 +29,9 @@ def trape(a,b,f,N):
 trape(a,b,f,N)
 
 print(s,trape(a,b,f,N))
+from gaussxw import gaussxwab
+x,w=gaussxwab(3,0,2)
+integ_gauss=sum(f(x)*w)
+print(integ_gauss)
+
+
