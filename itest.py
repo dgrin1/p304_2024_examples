@@ -33,5 +33,9 @@ from gaussxw import gaussxwab
 x,w=gaussxwab(3,0,2)
 integ_gauss=sum(f(x)*w)
 print(integ_gauss)
-
-
+from scipy.integrate import fixed_quad
+integ_scipy=fixed_quad(f,a,b)
+print(integ_scipy[0])
+from scipy.integrate import romberg
+integ_rom=romberg(f,a,b)
+print(integ_rom)
