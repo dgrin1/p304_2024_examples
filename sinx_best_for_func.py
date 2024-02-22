@@ -15,3 +15,6 @@ def gsin(x):
 #If converged to machine precision then break out of loop
 		if sold==s: break
 	return s
+
+a=float(input("What would you like to compute the sin of?"))
+print(gsin(a))
