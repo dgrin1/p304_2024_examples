@@ -15,3 +15,4 @@ def gsin(x):
 #If converged to machine precision then break out of loop
 		if sold==s: break
 	return s
+
