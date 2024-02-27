@@ -16,5 +16,8 @@ def gsin(x):
 		if sold==s: break
 	return s
 
+<<<<<<< HEAD
 a=float(input("What would you like to compute the sin of?"))
 print(gsin(a))
+=======
+>>>>>>> 01f74b7743c1f73bea149a62cc4729e4435276ea
