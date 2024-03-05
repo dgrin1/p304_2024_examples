@@ -8,7 +8,7 @@ N=len(v)
 
 #Gaussian elimination
 for m in range(N):
-	
+
 	# Divide by the diagonal element
 	div = A[m,m]
 	A[m,:]/=div
@@ -27,6 +27,3 @@ for m in range(N-1,-1,-1):
 	for i in range(m+1,N):
 		x[m]-=A[m,i]*x[i]
 print(x)
-
-
-
