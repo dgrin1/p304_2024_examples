@@ -32,7 +32,7 @@ tpoints=[]
 dxarr=[] #error array
 
 #arrays for different guesses
-r = array([0.03,0.0],float)
+r = array([3.14158,0.0],float)
 r1= copy(r)
 r2= copy(r)
 
